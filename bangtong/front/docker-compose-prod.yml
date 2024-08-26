@@ -1,0 +1,11 @@
+services:
+  bangtong-front:
+    container_name: prod-bangtong-front
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_NAME=bangtong
+        - REACT_APP_TITLE=방통터치
+    ports:
+      - 80:80

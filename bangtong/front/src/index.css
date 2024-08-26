@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 한글 평창체 */
+@font-face {
+  font-family: "PyeoungChang";
+  font-weight: normal;
+  src: url("./fonts/PyeongChang-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "PyeoungChang";
+}
+
+#product-list::-webkit-scrollbar {
+  display: none;
+}
+
+#signup-block {
+  max-height: 80%;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover {
+  font-size: inherit;
+  color: currentColor;
+}
