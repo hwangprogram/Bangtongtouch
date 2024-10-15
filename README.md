@@ -1,4 +1,4 @@
-# 웹/모바일(웹 디자인) 스켈레톤 프로젝트
+# 자취방 승계 플랫폼 방통터치
 
 <!-- 필수 항목 -->
 
@@ -38,9 +38,8 @@
 - 참조 리소스
   - [부동산 빅데이터 플랫폼](https://www.bigdata-realestate.kr/user/main/main.do#section-home)
   - [법정동 오픈 코드](https://www.data.go.kr/data/15063424/fileData.do)
-  - 추가중
 - 배포 환경
-  - 준비 중
+  - EC2 서버
 
 <!-- 자유 양식 -->
 
